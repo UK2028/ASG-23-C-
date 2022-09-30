@@ -1,0 +1,163 @@
+NAME-UDIT KHANDELWAL								ASSIGNMENT-23 (C++)
+
+
+1. Write a C++ program to print Hello MySirG on the screen.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello MySirG";
+    return 0;
+}
+
+2. Write a C++ program to print Hello on the first line and MySirG on the second line
+using endl.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello"<<endl<<"MySirG";
+    return 0;
+}
+
+
+3. Write a C++ program to calculate the sum of two numbers.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,sum;
+    cout<<"enter two numbers:";
+    cin>>a>>b;
+    sum=a+b;
+    cout<<"sum of "<<a<<" and "<<b<<" is:"<<sum;
+    return 0;
+}
+
+
+4. Write a C++ program to calculate the area of a circle.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float radius,area;
+    cout<<"enter radius of circle:";
+    cin>>radius;
+    area=3.14*radius*radius;
+    cout<<"area of circle of radius "<<radius<<" is:"<<area;
+    return 0;
+}
+
+
+5. Write a C++ program to calculate the volume of a cuboid.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float length,breadth,height,volume;
+    cout<<"enter length of cuboid:";
+    cin>>length;
+    cout<<"enter breadth of cuboid:";
+    cin>>breadth;
+    cout<<"enter height of cuboid:";
+    cin>>height;
+    volume=length*breadth*height;
+    cout<<"volume of cuboid is:"<<volume;
+    return 0;
+}
+
+
+6. Write a C++ program to calculate an average of 3 numbers.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a,b,c,average;
+    cout<<"enter first number:";
+    cin>>a;
+    cout<<"enter second number:";
+    cin>>b;
+    cout<<"enter third number:";
+    cin>>c;
+    average=(a+b+c)/3;
+    cout<<"average is: "<<average;
+    return 0;
+}
+
+
+7. Write a C++ program to calculate the square of a number
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float num,square;
+    cout<<"enter a number:";
+    cin>>num;
+    square=num*num;
+    cout<<"square of "<<num<<" is: "<<square;
+    return 0;
+}
+
+
+8. Write a C++ program to swap values of two int variables without using third variable
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout<<"enter first number:";
+    cin>>a;
+    cout<<"enter second number:";
+    cin>>b;
+    c=a;
+    a=b;
+    b=c;
+    cout<<"After swapping"<<endl<<"first number is: "<<a<<endl<<"second number is: "<<b;
+    return 0;
+}
+
+
+9. Write a C++ program to find the maximum of two numbers.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num1,num2,Max;
+    cout<<"enter first number:";
+    cin>>num1;
+    cout<<"enter second number:";
+    cin>>num2;
+    Max=(num1>num2)?num1:num2;
+    cout<<"Maximum number is: "<<Max;
+    return 0;
+}
+
+
+10. Write a C++ program to add all the numbers of an array of size 10.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int arr[10],sum=0,i=0;
+    cout<<"enter 10 numbers:";
+    for(i=0;i<10;i++)
+    {
+        cin>>arr[i];
+        sum+=arr[i];
+    }
+    cout<<"sum of numbers is: "<<sum;
+    return 0;
+}
+
+
+
